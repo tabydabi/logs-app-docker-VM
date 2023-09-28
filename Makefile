@@ -1,0 +1,1 @@
+run: docker run -d -p 3000:3000 -v test:/app/data --rm --name testapp testapp
